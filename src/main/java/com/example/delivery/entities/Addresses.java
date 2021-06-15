@@ -12,4 +12,36 @@ public class Addresses {
     private Long id;
     private String address;
     private Long phone;
+
+    public Addresses() {
+    }
+
+    public Addresses(String address, Long phone) {
+        this.address = address;
+        this.phone = phone;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Long phone) {
+        this.phone = phone;
+    }
 }
